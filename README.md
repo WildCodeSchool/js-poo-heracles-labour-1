@@ -49,10 +49,10 @@ Create a `fight ()` method that will allow you to attack the enemy. To determine
 In summary :
 
 ```
-attacked's new life points = attacked's current life points - (attacker's damage - attacked's dexterity)
+defender's new life points = defender's current life points - (attacker's damage - defender's dexterity)
 ```
 
-knowing that `(attacker's damage - attacked's dexterity)` must not be negative.
+knowing that `(attacker's damage - defender's dexterity)` must not be negative.
 
 There you go, your class is ready, you just have to use it!
 
