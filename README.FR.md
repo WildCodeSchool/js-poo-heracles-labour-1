@@ -42,7 +42,7 @@ Créer une méthode `fight()` qui vous permet d'attaquer l'ennemi. Pour détermi
 
 - Le combattant frappera avec plus ou moins de succès, la quantité de dommage infligé par l' **attaquant** sera aléatoire entre 1 et sa _strength_ (Utilise `Math.random()`([Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) Pour d'autres conseils, voir [article] (https://dev.to/rocambille/how-to-roll-a-dice-in-javascript-51j0)).
 
-- Mais le défenseur peut se défendre ou esquiver ! Pour cela mitigez les dommages en les soustrayant de la _dexterity_ du **défenseur** (sans jamais **descendre en dessous de zéro**).
+- Mais le défenseur peut se défendre ou esquiver ! Pour cela, mitigez les dommages en leur soustrayant la _dexterity_ du **défenseur** (sans jamais **descendre en dessous de zéro**).
 
 - une fois les dommages calculés, réduisez le nombre de points de vie du **défenseur** par la valeur précédemment obtenue. Faites attention : les points de vie du défenseur **ne peuvent tomber en dessous de zéro**, rappelez vous bien de ça.
 
