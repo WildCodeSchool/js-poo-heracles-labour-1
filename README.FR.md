@@ -38,7 +38,7 @@ Pour cela, tapez simplement : `node index.js` dans votre terminal.
 
 Héraclès s’échauffe un peu, resserre ses muscles, écrase quelques rochers à mains nues. Il est prêt à se battre !
 
-Dans la classe Fighter, créez une méthode `fight()` qui vous permet d'attaquer l'ennemi. Pour déterminer qui vous attaquez, la méthode `fight()` prend un objet _Fighter_ comme paramètre ! Dans le corps de la méthode, vous calculerez en premier les points de dommage de l'attaquant :
+Dans la classe Fighter, créez une méthode `fight()` qui vous permet d'attaquer l'ennemi. Pour déterminer qui vous attaquez, la méthode `fight()` prend en paramètre un objet de type _Fighter_ (on peut l'appeller `defender`) ! Dans le corps de la méthode, vous calculerez en premier les points de dommage de l'attaquant :
 
 - Le combattant frappera avec plus ou moins de succès, la quantité de dommage infligé par l' **attaquant** sera aléatoire entre 1 et sa _strength_ (Utilise `Math.random()`([Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) Pour d'autres conseils, voir [article] (https://dev.to/rocambille/how-to-roll-a-dice-in-javascript-51j0)).
 
