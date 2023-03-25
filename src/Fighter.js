@@ -10,8 +10,11 @@ class Fighter {
 
     fight(defender){
         let damage = Math.abs((1 + Math.floor(Math.random() * defender.str)) - defender.dex)
-        console.log(damage)
-        defender.life -= damage
+        if(defender.life > damage) {
+            defender.life -= damage;
+        } else {
+            defender.life = 0;
+        } 
     }
 }
 
