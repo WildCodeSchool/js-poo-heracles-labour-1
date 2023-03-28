@@ -42,7 +42,7 @@ In Fighter class, create a `fight ()` method that will allow you to attack the e
 
 - The fighter will hit with more or less success each time, the number of points of damage that the ** attacker ** does will therefore be a random number between 1 and the strength of the fighter (use `Math.random ()` ([Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random), and if needed some advices from [this article](https://dev.to/rocambille/how-to-roll-a-dice-in-javascript-51j0))
 
-- But the attacked can defend and dodge! You will therefore mitigate the damage by subtracting the damage from the dexterity of the **attacked** (without **never going below zero**)
+- But the attacked can defend and dodge! You will therefore mitigate the damage by subtracting the dexterity of the **attacked** from the damage (without **never going below zero**)
 
 - Once the damage is calculated, decrease the number of life points of the **attacked** by the value thus obtained. Be careful, the life of a fighter **cannot fall below zero**, also remember to check that
 
