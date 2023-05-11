@@ -16,13 +16,13 @@ while (heracles.life > 0 || nemeanLion.life > 0) {
  
         round++;
         if (heracles.life <= 0) {
-            console.log(`🏆 ${heracles.name} est mort`);
-            console.log(`💀 ${nemeanLion.name} a gagné ( ❤️   ${nemeanLion.life} )`);
+            console.log(`💀 ${heracles.name} est mort`);
+            console.log(`🏆 ${nemeanLion.name} a gagné ( ❤️   ${nemeanLion.life} )`);
             break;
         }   
         if (nemeanLion.life <= 0) {
-            console.log(`🏆 ${nemeanLion.name} est mort`);
-            console.log(`💀 ${heracles.name} a gagné ( ❤️  ${heracles.life} )`);
+            console.log(`💀 ${nemeanLion.name} est mort`);
+            console.log(`🏆 ${heracles.name} a gagné ( ❤️  ${heracles.life} )`);
             break;
         }
 
