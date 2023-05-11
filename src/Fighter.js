@@ -10,7 +10,7 @@ class Fighter {
 
 fight(defender) {   
     let damage = Math.round(Math.random()* this.strength) - defender.dexterity ;
-    console.log(damage);
+    //console.log(damage);
     if (damage < 0) {
         damage = 0;
     }
@@ -19,9 +19,9 @@ fight(defender) {
     }else {
         defender.life -= damage;
     }
-    console.log(defender.life);
+    //console.log(defender.life);
 
-    return `${this.name} frappe ${defender.name} et lui inflige ${damage} de dégats`;
+    console.log(`${this.name}  ⚔️  ${defender.name} et lui inflige ${damage} de dégats il lui reste ❤️ ${defender.name} ${defender.life}`);
 }}
 
 
